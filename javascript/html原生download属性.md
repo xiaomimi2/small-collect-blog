@@ -73,3 +73,5 @@ if('download' in document.createElement('a')) {
         alert('浏览器不支持')
     }
 }
+```
+

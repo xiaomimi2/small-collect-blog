@@ -33,4 +33,11 @@ justify-content: center;
 align-items: center;
 ```
 
+4.table的td宽度变成可定义
+```
+  table{
+        table-layout: fixed;
+  }
+```
+
 
