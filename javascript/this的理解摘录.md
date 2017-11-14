@@ -32,9 +32,9 @@ var obj = {
 }
 var obj1 = {
     a: 2,
-    obj2:obj2
+    obj2:obj
 }
-obj1.obj2.foo()//42  先找到调用位置是在obj内。然后上下文环境是obj.所以最后a的结果是2
+obj1.obj2.foo()//42  先找到调用位置是在obj内。然后上下文环境是obj1.所以最后a的结果是2
 ```
 
 隐式丢失
